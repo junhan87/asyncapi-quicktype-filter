@@ -1,5 +1,5 @@
 {
-  "name": "@lagoni/asyncapi-quicktype-filter",
+  "name": "@junhan87/asyncapi-quicktype-filter",
   "version": "1.2.3",
   "description": "Library with qucktype filters for templates using AsyncAPI Generator",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonaslagoni/asyncapi-quicktype-filter.git"
+    "url": "git+https://github.com/junhan87/asyncapi-quicktype-filter.git"
   },
   "keywords": [
     "asyncapi",
