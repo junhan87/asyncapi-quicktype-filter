@@ -95,7 +95,7 @@ function getDefaultRenderOptions(options, schemaName, jsonSchema) {
   case SUPPORTED_LANGUAGES.cplusplus:
     //Each schema require custom namespace and not common since otherwise schema names will clash.
     if (!renderOptions.namespace) {
-      renderOptions.namespace = `${pascalCase(schemaName)}NameSpace`;
+      renderOptions.namespace = `${schemaName.toLowerCase()}asyncapi`;
     }
     break;
   case SUPPORTED_LANGUAGES.java:
