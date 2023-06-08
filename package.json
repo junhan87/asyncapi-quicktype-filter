@@ -1,6 +1,6 @@
 {
   "name": "@junhan87/asyncapi-quicktype-filter",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Library with qucktype filters for templates using AsyncAPI Generator",
   "main": "src/index.js",
   "scripts": {
@@ -42,7 +42,7 @@
   "dependencies": {
     "is-url": "^1.2.4",
     "lodash": "^4.17.15",
-    "quicktype-core": "6.0.66"
+    "quicktype-core-custom": "1.0.0"
   },
   "release": {
     "branches": [

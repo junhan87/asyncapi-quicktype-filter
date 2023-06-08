@@ -6,7 +6,7 @@ const {
   InputData,
   JSONSchemaInput,
   JSONSchemaStore,
-} = require('quicktype-core');
+} = require('quicktype-core-custom');
 
 function pascalCase(string) {
   string = _.camelCase(string);
